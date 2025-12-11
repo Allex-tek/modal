@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Nodal</title>
 </head>
+
 <body>
     <header>
         <h1>Modal</h1>
     </header>
     <section>
-        <button>Open Model</button>
+        <button class="btnOpenModal">Open Model</button>
     </section>
-    <main>
-
+    <main class="modal-main">
+        <article class="modal">
+            <span class="close">x</span>
+            <h2>O que é um Modal?</h2>
+            <p class="question">
+                É uma janela que aparece sobre a página, obrigando o usuário a interagir com ela antes de voltar ao conteúdo principal.
+            </p>
+            <h3>Ele normalmente possui:</h3>
+            <ul>
+                <li>Fundo escuro</li>
+                <li>Caixa central</li>
+                <li>Botão de fechar</li>
+                <li>Prevenção de rolagem do body</li>
+            </ul>
+        </article>
     </main>
 
     <script type="module" src="./src/js/app.js"></script>
 </body>
+
 </html>
